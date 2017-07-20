@@ -15,6 +15,7 @@
 		3D1314811F1E0A52004C0C31 /* PinterestViewLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1314801F1E0A52004C0C31 /* PinterestViewLayoutTests.swift */; };
 		3D13148C1F1E0A52004C0C31 /* PinterestViewLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D13148B1F1E0A52004C0C31 /* PinterestViewLayoutUITests.swift */; };
 		3D13149A1F1E0A5E004C0C31 /* PinterestViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1314991F1E0A5E004C0C31 /* PinterestViewLayout.swift */; };
+		3D16E9AF1F209B08001ECA7E /* StickyHeaderFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D16E9AE1F209B08001ECA7E /* StickyHeaderFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3D13148B1F1E0A52004C0C31 /* PinterestViewLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestViewLayoutUITests.swift; sourceTree = "<group>"; };
 		3D13148D1F1E0A52004C0C31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D1314991F1E0A5E004C0C31 /* PinterestViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestViewLayout.swift; sourceTree = "<group>"; };
+		3D16E9AE1F209B08001ECA7E /* StickyHeaderFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickyHeaderFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				3D13146B1F1E0A52004C0C31 /* AppDelegate.swift */,
 				3D13146D1F1E0A52004C0C31 /* ViewController.swift */,
 				3D1314991F1E0A5E004C0C31 /* PinterestViewLayout.swift */,
+				3D16E9AE1F209B08001ECA7E /* StickyHeaderFlowLayout.swift */,
 				3D13146F1F1E0A52004C0C31 /* Main.storyboard */,
 				3D1314721F1E0A52004C0C31 /* Assets.xcassets */,
 				3D1314741F1E0A52004C0C31 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D13149A1F1E0A5E004C0C31 /* PinterestViewLayout.swift in Sources */,
+				3D16E9AF1F209B08001ECA7E /* StickyHeaderFlowLayout.swift in Sources */,
 				3D13146E1F1E0A52004C0C31 /* ViewController.swift in Sources */,
 				3D13146C1F1E0A52004C0C31 /* AppDelegate.swift in Sources */,
 			);
@@ -511,6 +515,7 @@
 				3D1314921F1E0A52004C0C31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D1314931F1E0A52004C0C31 /* Build configuration list for PBXNativeTarget "PinterestViewLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +524,7 @@
 				3D1314951F1E0A52004C0C31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D1314961F1E0A52004C0C31 /* Build configuration list for PBXNativeTarget "PinterestViewLayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +533,7 @@
 				3D1314981F1E0A52004C0C31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
