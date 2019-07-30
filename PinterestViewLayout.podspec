@@ -119,7 +119,7 @@ Pod::Spec.new do |spec|
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
-  s.swift_version = '4.0'
+    spec.swift_version = '4.0'
 
 
 
